@@ -1,11 +1,11 @@
 {
-  "name": "@koa/router",
+  "name": "@cymen/koa-router",
   "description": "Router middleware for koa. Provides RESTful resource routing.",
-  "version": "8.0.8",
+  "version": "9.0.0",
   "author": "Alex Mingoia <talk@alexmingoia.com>",
   "bugs": {
-    "url": "https://github.com/koajs/router/issues",
-    "email": "niftylettuce@gmail.com"
+    "url": "https://github.com/cymen/router",
+    "email": "cymenvig@gmail.com"
   },
   "dependencies": {
     "debug": "^4.1.1",
@@ -32,7 +32,7 @@
   "files": [
     "lib"
   ],
-  "homepage": "https://github.com/koajs/router",
+  "homepage": "https://github.com/cymen/router",
   "keywords": [
     "koa",
     "middleware",
@@ -43,7 +43,7 @@
   "main": "lib/router.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/koajs/router.git"
+    "url": "https://github.com/cymen/router"
   },
   "scripts": {
     "docs": "NODE_ENV=test jsdoc2md -t ./lib/API_tpl.hbs --src ./lib/*.js  >| API.md",
